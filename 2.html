@@ -1,0 +1,391 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOOD Playlist</title>
+  <link rel="stylesheet" href="./2.css">
+  </head>
+  <body>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="container">
+      <div class="header">
+        <img class="logo" src="./images/image.png" alt="MOOD PLAYLIST" />
+        <p class="tagline">Choose 5 artists to match your mood</p>
+      </div>
+
+      <div class="artists-grid">
+        <div class="artist-item" data-artist="Drake Today">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Drake"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Drake Today</div>
+        </div>
+
+        <div class="artist-item" data-artist="Arctic Monkeys">
+          <div class="artist-photo square selected">
+            <img
+              src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&amp;h=300&amp;fit=crop"
+              alt="Arctic Monkeys"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Arctic Monkeys</div>
+        </div>
+
+        <div class="artist-item" data-artist="Shawn Mendes">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Shawn"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Shawn Mendes</div>
+        </div>
+
+        <div class="artist-item" data-artist="Post Malone">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Post"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Post Malone</div>
+        </div>
+
+        <div class="artist-item" data-artist="Eminem">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Eminem"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Eminem</div>
+        </div>
+
+        <div class="artist-item" data-artist="Collective After Sex">
+          <div class="artist-photo selected">
+            <img
+              src="https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Collective"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Collective After Sex</div>
+        </div>
+
+        <div class="artist-item" data-artist="The Weeknd">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1463453091185-61582044d556?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Weeknd"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">The Weeknd</div>
+        </div>
+
+        <div class="artist-item" data-artist="Charli XCX">
+          <div class="artist-photo">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/95/The_Weeknd_Cannes_2023.png"
+              alt="Charli"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Charli XCX</div>
+        </div>
+
+        <div class="artist-item" data-artist="27">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="27"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">27</div>
+        </div>
+
+        <div class="artist-item" data-artist="Blue Planet">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Blue"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Blue Planet</div>
+        </div>
+
+        <div class="artist-item" data-artist="Nicholas Britell">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Nicholas"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Nicholas Britell</div>
+        </div>
+
+        <div class="artist-item" data-artist="Steve Lacy">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Steve"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Steve Lacy</div>
+        </div>
+
+        <div class="artist-item" data-artist="Mac Miller">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Mac"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Mac Miller</div>
+        </div>
+
+        <div class="artist-item" data-artist="Paramore">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Paramore"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Paramore</div>
+        </div>
+
+        <div class="artist-item" data-artist="Drake">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Drake 2"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Drake</div>
+        </div>
+
+        <div class="artist-item" data-artist="Artist">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Artist"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Artist</div>
+        </div>
+
+        <div class="artist-item" data-artist="Adele Singer">
+          <div class="artist-photo">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/95/The_Weeknd_Cannes_2023.png"
+              alt="Adele"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Adele Singer</div>
+        </div>
+
+        <div class="artist-item" data-artist="Taylor Angeles">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Taylor"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Taylor Angeles</div>
+        </div>
+
+        <div class="artist-item" data-artist="Frank Ocean">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Frank"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Frank Ocean</div>
+        </div>
+
+        <div class="artist-item" data-artist="Gorillaz Ocean">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Gorillaz"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Gorillaz Ocean</div>
+        </div>
+
+        <div class="artist-item" data-artist="Amy Winehouse">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Amy"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Amy Winehouse</div>
+        </div>
+
+        <div class="artist-item" data-artist="Roy Ayers">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Roy"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Roy Ayers</div>
+        </div>
+
+        <div class="artist-item" data-artist="Captiva">
+          <div class="artist-photo">
+            <img
+              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&amp;h=300&amp;fit=crop&amp;crop=face"
+              alt="Captiva"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Captiva</div>
+        </div>
+
+        <div class="artist-item" data-artist="Summer Walker">
+          <div class="artist-photo selected">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/95/The_Weeknd_Cannes_2023.png"
+              alt="Summer"
+              class="artist-image"
+            />
+          </div>
+          <div class="artist-name">Summer Walker</div>
+        </div>
+      </div>
+    </div>
+
+    <button class="generate-btn" id="generateBtn">Select 2 More</button>
+
+    <script>
+      let selectedArtists = [];
+      const maxSelection = 5;
+
+      document.querySelectorAll(".artist-item").forEach((item) => {
+        item.addEventListener("click", () => {
+          const photo = item.querySelector(".artist-photo");
+          const artist = item.dataset.artist;
+
+          if (photo.classList.contains("selected")) {
+            photo.classList.remove("selected");
+            selectedArtists = selectedArtists.filter((a) => a !== artist);
+          } else if (selectedArtists.length < maxSelection) {
+            photo.classList.add("selected");
+            selectedArtists.push(artist);
+          }
+
+          updateCounter();
+        });
+      });
+
+      function updateCounter() {
+        const btn = document.getElementById("generateBtn");
+
+        if (selectedArtists.length === maxSelection) {
+          btn.classList.add("active");
+          btn.textContent = "Generate Playlist";
+        } else {
+          btn.classList.remove("active");
+          btn.textContent = `Select ${
+            maxSelection - selectedArtists.length
+          } More`;
+        }
+      }
+
+      document.getElementById("generateBtn").addEventListener("click", () => {
+        if (selectedArtists.length === maxSelection) {
+          alert(`Creating playlist with: ${selectedArtists.join(", ")}`);
+
+          // Reset
+          selectedArtists = [];
+          document.querySelectorAll(".artist-photo").forEach((photo) => {
+            photo.classList.remove("selected");
+          });
+          updateCounter();
+        }
+      });
+    </script>
+    <!-- Code injected by live-server -->
+    <script>
+      // <![CDATA[  <-- For SVG support
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+        );
+      }
+      // ]]>
+    </script>
+  </body>
+</html>
